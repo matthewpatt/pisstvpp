@@ -67,7 +67,7 @@ A copy of the GPLv3 has been included in the repository.
 
 ## Credits
 
-AgriVision (Gerrit Polder) for the original PiSSTV and bulk of the DSP code and boilerplate t
+AgriVision (Gerrit Polder)
 
 KI4MCW for SSTV
 
