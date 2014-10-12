@@ -16,13 +16,13 @@ To compile PiSSTVpp, you should download this repository and also have:
 
 On Ubuntu or Debian, you should be able to install those dependencies by typing into your terminal:
 
-```sudo apt-get install build-essential libgd libmagic
+`sudo apt-get install build-essential libgd libmagic`
 
 After that, type `make pisstvpp` in the directory where PiSSTV resides in.
 
 ## Usage
 
-```./pisstvpp [-rSAMPLERATE] [-pPROTOCOL] imagename
+`./pisstvpp [-rSAMPLERATE] [-pPROTOCOL] imagename`
 
 This command creates a WAVE file in the current working directory that encodes a PNG or JPG image into an SSTV audio signal. 
 
@@ -39,7 +39,7 @@ Supported protocols and their respective options:
 
 For instance, to create an audio file with the Scottie 2 protocol with a sampling rate of 22050Hz, and the input as a file `buzzece_qr.png` invoke:
 
-```./pisstv -r 22050 -p s2 buzzece_qr.png
+`./pisstv -r 22050 -p s2 buzzece_qr.png`
 
 This will create `buzzece_qr.png.wav` in the working directory that encodes the ECE Buzz image in the Scottie 2 protocol.
 
