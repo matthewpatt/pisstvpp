@@ -1,7 +1,5 @@
 # PiSSTVpp
 
-Don Gi Min, KM4EQR
-
 PiSSTVpp is a simple implementation of various SSTV protocols, to be used by low-frills computers running a CLI, such as with Raspberry Pis and so on.
 Its intended for use by ham radio amateurs.
 
